@@ -35,6 +35,12 @@ export interface MobileData {
   audio: { volume: number; mode: string };
   connectivity: { signal: string; wifi: string; bluetooth: string };
   storage: { used: number; total: number };
+  system: {
+    cpu: number;
+    ram: { used: number; total: number };
+    temp: number;
+    uptime: string;
+  };
 }
 
 export const VOICE_MODULES = [
