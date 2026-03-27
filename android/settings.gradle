@@ -1,0 +1,2 @@
+rootProject.name = "JARVIS AI"
+include ':app'
